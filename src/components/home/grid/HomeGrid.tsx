@@ -1,4 +1,4 @@
-import Logo from '/assets/biss-logo.png';
+import Logo from '/images/biss-logo.png';
 import { FRAMEWORKS } from '../../../constants/constants';
 import { FrameworkIcon } from './framework-icon/FrameworkIcon';
 

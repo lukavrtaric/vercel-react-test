@@ -41,7 +41,7 @@ export const QueryExample = () => {
                             <img
                                 className='max-w-full w-auto h-[14vh] rounded-t-lg m-auto'
                                 src={
-                                    pokemon.sprite ?? '/assets/placeholder.png'
+                                    pokemon.sprite ?? '/images/placeholder.png'
                                 }
                                 alt={`${pokemon.name} sprite`}
                             />
