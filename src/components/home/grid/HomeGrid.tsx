@@ -14,8 +14,8 @@ export const HomeGrid = () => {
                 />
             </div>
             <div className='grid grid-cols-4 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full'>
-                {FRAMEWORKS.map(({ id, name, version, icon }) => (
-                    <FrameworkIcon key={id} name={name} icon={icon} version={version} />
+                {FRAMEWORKS.map(({ id, name, version, icon, data_test_id }) => (
+                    <FrameworkIcon key={id} name={name} icon={icon} version={version} data_test_id={data_test_id} />
                 ))}
             </div>
         </div>
